@@ -274,7 +274,6 @@ const characterList = {
                 Math.max(person.currentMp, person.maxMp));
             // const estimatedAvailableSpace = 160 - estimatedStatusLength;
             const estimatedAvailableSpace = 71;
-            const estimatedAvailableSpace = 160 - estimatedStatusLength;
             let scalingFactor = 1;
             if (maxBarValue > estimatedAvailableSpace) {
                 scalingFactor = estimatedAvailableSpace / maxBarValue;
